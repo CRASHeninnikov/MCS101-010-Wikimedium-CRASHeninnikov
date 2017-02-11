@@ -1,7 +1,10 @@
 body {
+  font-family: 'PT Sans', sans-serif;
+}
+
+article {
   width: 700px;
   margin: 0 auto;
-  font-family: 'PT Sans', sans-serif;
 }
 
 h1, h2, h3 {
@@ -75,4 +78,10 @@ li {
 a {
   color: inherit;
   text-decoration: underline;
+}
+
+img {
+  display: block;
+  width: 1020px;
+  margin: 80px auto;
 }
