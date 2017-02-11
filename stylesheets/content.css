@@ -1,4 +1,6 @@
 body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-family: 'PT Sans', sans-serif;
 }
 
@@ -73,6 +75,7 @@ ul {
 
 li {
   margin: 17px 0 17px 30px;
+  list-style-type: disc;
 }
 
 a {
@@ -84,4 +87,22 @@ img {
   display: block;
   width: 1020px;
   margin: 80px auto;
+}
+
+img + h2 {
+  margin-top: -1px;
+}
+
+img + p,
+img + blockquote,
+img + ul {
+  margin-top: -3px;
+}
+
+h2 + img {
+  margin-top: 82px;
+}
+
+h3 + img {
+  margin-top: 81px;
 }
