@@ -1,0 +1,26 @@
+.sidebar {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	width: 400px;
+	padding: 30px;
+	background: lightblue;
+}
+
+.sidebar ul {
+
+}
+.sidebar li {
+
+}
+
+.sidebar > ul > li {
+
+}
+.sidebar li > ul {
+
+}
+
+.sidebar ul > li > ul > li {
+
+}
