@@ -1,4 +1,4 @@
-article {
+article > * {
   width: 700px;
   margin: 0 auto;
 }
@@ -78,7 +78,7 @@ article p+p, p+blockquote, blockquote+blockquote, blockquote+p {
 }
 
 article ul {
-  margin: 29px 0;
+  margin: 29px auto;
 }
 
 article li {
@@ -112,4 +112,45 @@ article h2 + img {
 
 article h3 + img {
   margin-top: 81px;
+}
+
+.share {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.share > div {
+  position: absolute;
+  top: -44px;
+  right: 20px;
+}
+
+
+@media all and (max-width: 1020px) {
+
+  article img {
+    width: 100%;
+    margin: 80px auto;
+  }
+
+}
+
+@media only all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+  article > * {
+    width: calc(100% - 40px);
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+
+  body {
+    min-width: 320px;
+  }
+
+  article > * {
+    width: calc(100% - 40px);
+  }
 }

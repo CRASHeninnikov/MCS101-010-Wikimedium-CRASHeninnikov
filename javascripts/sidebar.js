@@ -3,7 +3,7 @@
 			$(this).on('click', function(e) {
 				e.preventDefault();
 				var scrollTo = $(this).attr('href');
-				var whitespace = scrollTo == '#s1' ? 70 : 30
+				var whitespace = 70
 				$('html,body').animate({
 					scrollTop: $(scrollTo).offset().top - whitespace
 				}, 1000);

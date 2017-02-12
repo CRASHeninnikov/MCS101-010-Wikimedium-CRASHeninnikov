@@ -1,11 +1,13 @@
 * {
 	box-sizing: border-box;
+	transition: all .1s ease-out;
 }
 
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'PT Sans', sans-serif;
+	min-width: 768px;
 }
 
 a {
