@@ -1,26 +1,37 @@
 .sidebar {
 	position: fixed;
-	top: 20px;
+	z-index: 1;
+	top: 70px;
 	left: 20px;
-	width: 400px;
+	width: 300px;
 	padding: 30px;
-	background: lightblue;
+	opacity: 0.1;
+	transition: all .1s ease-out;
 }
 
-.sidebar ul {
-
+.sidebar:hover {
+	opacity: 1;
 }
+
 .sidebar li {
-
+	margin-top: 12px;
+	font-size: 14px;
+	line-height: 15px;
 }
 
 .sidebar > ul > li {
-
+font-weight: bold;
 }
 .sidebar li > ul {
 
 }
 
-.sidebar ul > li > ul > li {
+.sidebar > ul > li:first-child {
+ font-weight: bold;
+ margin-top: -7px;
+}
 
+.sidebar ul > li > ul > li {
+	margin-left: 10px;
+	color: rgba(0,0,0,.5);
 }
