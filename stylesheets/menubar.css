@@ -1,8 +1,23 @@
 .menubar {
 	position: fixed;
+	z-index: 1;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 50px;
 	background: white;
+  opacity: 0.95;
+		/*-webkit-filter: blur(1px);
+		-moz-filter: blur(1px);
+		-o-filter: blur(1px);
+		-ms-filter: blur(1px);
+		filter: blur(1px);*/
+}
+
+.menubar .logo {
+
+}
+
+.menubar .about {
+
 }
