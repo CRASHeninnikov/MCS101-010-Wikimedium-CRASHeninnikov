@@ -50,6 +50,14 @@ article h3+p, h3+blockquote {
   margin-top: 6px;
 }
 
+article h4 {
+  font-weight: bold;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 22px;
+  line-height: 34px;
+  color: rgba(0, 0, 0, .8);
+}
+
 article p, li, blockquote {
   font-family: 'PT Sans', sans-serif;
   font-size: 22px;
@@ -110,9 +118,11 @@ article h2 + img {
   margin-top: 82px;
 }
 
+
 article h3 + img {
   margin-top: 81px;
 }
+
 
 .share {
   position: fixed;
