@@ -1,0 +1,27 @@
+.posts {
+	background-color: #fafafa;
+}
+
+.posts.bg {
+	background-image: url(../images/posts/posts_mockup.png);
+	background-position: center -10px;
+	background-repeat: no-repeat;
+}
+
+.postsFeed {
+	padding-top: 90px;
+}
+
+.postsFeed a {
+	display: block;
+	background-color: #FFFFFF ;
+	border: 1px solid rgba(0,0,0,.10);
+	box-shadow: 0px 1px 4px 0px rgba(0,0,0,.05);
+	border-radius: 10px;
+}
+
+.postsFeed figure {
+	background-size: cover;
+	background-position: center;
+
+}
