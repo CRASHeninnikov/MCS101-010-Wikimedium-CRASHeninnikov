@@ -4,10 +4,6 @@
 	background-repeat: no-repeat;
 }
 
-.compact {
-	display: none;
-}
-
 .landingWrapper {
 	position: relative;
 	display: flex;
@@ -19,6 +15,7 @@
 	overflow: hidden;
 
 }
+
 
 .mainSection {
 	position: relative;
@@ -161,10 +158,7 @@
 	right: -732px;
 	width: 1348px;
   height: 779px;
-	background-image: url(../images/landing/landing-mockup-3.jpg);
-	box-shadow: 0 2px 10px 0 rgba(0,0,0,.2);
-	border-radius: 5px 0 0 0;
-
+	background-image: url(../images/landing/landing-mockup-3.jpg)
 }
 
 
@@ -252,13 +246,12 @@
 	}
 
 	.mainSection {
-    width: 910px;
+    width: 910x;
     min-width: 910px;
     height: 1024px;
   }
 
-	.mainSection h2,
-	.mainSection.center h2 {
+	.mainSection h2 {
 		font-size: 36px;
 		line-height: 46px;
 	}
@@ -270,73 +263,8 @@
 	}
 
 	.mainSection section {
-		position: absolute;
 		width: 580px;
 		top: 137px;
-	}
-
-	.mainSection.left section,
-	.mainSection.right section {
-		left: 165px;
-		right: auto;
-  }
-
-	.mainSection .pattern {
-    width: 210px;
-    height: 20px;
-		margin-top: 50px;
-  }
-
-	.mainSection.left .pattern,
-	.mainSection.right .pattern {
-		margin-left: -60px;
-	}
-
-	.mainSection:nth-child(3) .pattern {
-		margin-left: 430px;
-	}
-
-	.mainSection.center section {
-		top: 260px;
-	}
-
-	.mainSection.center nav {
-		margin-top: 50px;
-	}
-
-	.mainSection.center nav a {
-		margin: 0 10px;
-	}
-
-	.full {
-		display: none;
-	}
-
-	.compact {
-		display: block;
-	}
-
-
-	#mockup1 {
-	  top: 375px;
-	  right: -34px;
-	  width: 621px;
-	  height: 560px;
-	}
-
-	#mockup2 {
-		top: 415px;
-	  left: 333px;
-		width: 464px;
-		height: 584px;
-	}
-
-	#mockup3 {
-		top: auto;
-		bottom: 0;
-		right: -30px;
-		width: 836px;
-	  height: 483px;
 	}
 
 
